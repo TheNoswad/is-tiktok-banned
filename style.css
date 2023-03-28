@@ -6,3 +6,31 @@ html, body, #map {
     height: 100%;
     width: 100%;
 }
+
+.info {
+    font-size: x-large;
+    word-wrap: inherit;
+}
+
+.legenditm {
+    position: relative;
+    margin-left: 20px;
+  }
+  .legenditm:before{
+    position: absolute;
+    left: -30px;
+    content: "";
+    height:20px;
+    width:20px;
+    margin-bottom:15px;
+    border:1px solid black;
+  }
+  .legenditm.red:before{
+    background-color:red;
+  }
+  .legenditm.green:before{
+    background-color:green;
+  }
+  .legenditm.yellow:before{
+    background-color:yellow;
+  }
